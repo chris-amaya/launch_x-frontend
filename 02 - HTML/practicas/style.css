@@ -1,0 +1,188 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #fc74ff;
+  font-weight: 300;
+}
+
+h2 {
+  color: #fc74ff;
+  font-weight: 300;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.logo {
+  width: 100px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+header {
+  padding: 30px 0;
+}
+
+header .container,
+section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section:nth-child(2n) {
+  background-color: #fee0ff;
+  padding: 20px 0;
+}
+
+section:nth-child(2n + 1) {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+section .container .cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+section .cards .card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+section .cards .img img {
+  width: 100%;
+  height: auto;
+}
+
+section .cards .text {
+  color: #fc74ff;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section .cards .img {
+  width: 200px;
+}
+
+.button {
+  background-color: #fc74ff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+section.pedido .container .form-parent {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form form div {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form form div input {
+  width: 100%;
+  border: none;
+  padding: 10px 5px;
+  background-color: #fc74ff;
+}
+
+.form-parent .form {
+  width: 100%;
+  padding: 30px;
+}
+
+.form-parent .button {
+  margin-top: 40px;
+}
+
+.form-parent .description {
+  text-align: center;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer .container > div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  /* padding: 100px 0px; */
+}
+
+.footer .container > div > div {
+  width: 50%;
+  text-align: center;
+}
+
+.horario .rango {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.horario .rango p {
+  width: 100%;
+}
+
+.orders {
+  background-color: #fff !important;
+}
+
+.list-orders {
+  width: 80%;
+}
+
+.list-orders .headers {
+  border-bottom: 2px solid #000;
+  padding: 10px 0px;
+}
+
+.list-orders .headers,
+.list-orders .body {
+  display: flex;
+  width: 100%;
+}
+
+.list-orders .headers > div,
+.list-orders .body > div {
+  width: 100%;
+}
